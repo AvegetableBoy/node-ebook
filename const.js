@@ -7,12 +7,12 @@ let dbUser
 let dbPwd
 if (env === 'dev') {
     resUrl = 'http://172.25.29.205:8081'
-    mp3FilePath = '/Users/sam/Desktop/resource/mp3'
+    mp3FilePath = 'E:\\\\nginx\\\\nginx-1.19.8\\\\resource/mp3'
     dbHost = 'localhost'
     dbUser = 'root'
     dbPwd = '123456789'
 } else if (env === 'prod') {
-    resUrl = '106.15.11.230'
+    resUrl = 'http://106.15.11.230'
     mp3FilePath = '/root/nginx/upload/mp3'
     dbHost = '106.15.11.230'
     dbUser = 'root'
